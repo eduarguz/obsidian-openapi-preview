@@ -1,0 +1,20 @@
+node_modules/
+main.js
+main.js.map
+data.json
+.DS_Store
+coverage/
+test-results/
+playwright-report/
+
+# Local AI tooling and internal implementation plans
+.serena/
+.opencode/
+opencode.json
+opencode.jsonc
+docs/superpowers/
+
+# Local credentials and logs
+.env
+.env.*
+*.log

@@ -1,0 +1,15 @@
+openapi: 3.1.0
+info:
+  title: Vault Users API
+  version: 1.0.0
+  description: A multi-file specification to try in OpenAPI Preview.
+tags:
+  - name: Users
+    description: Users stored by the example API.
+paths:
+  /users:
+    $ref: ./paths/users.yaml
+components:
+  schemas:
+    User:
+      $ref: ./schemas/user.yaml

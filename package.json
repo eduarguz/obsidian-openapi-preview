@@ -1,0 +1,30 @@
+{
+  "name": "openapi-preview",
+  "version": "0.1.0",
+  "description": "Preview OpenAPI YAML and JSON documentation with Redoc and vault-based references.",
+  "main": "main.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "14.2.1",
+    "buffer": "^6.0.3",
+    "path-browserify": "^1.0.1",
+    "redoc": "^2.5.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.17",
+    "esbuild": "^0.25.5",
+    "obsidian": "latest",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.0"
+  }
+}

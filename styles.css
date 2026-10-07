@@ -1,0 +1,38 @@
+.openapi-preview {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+.openapi-preview-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  border: 0;
+  background: var(--background-primary);
+}
+
+.openapi-preview-message {
+  padding: var(--size-4-6);
+  overflow: auto;
+}
+
+.openapi-preview-message pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-family: var(--font-text);
+  color: var(--text-muted);
+}
+
+.openapi-preview-source p {
+  color: var(--text-muted);
+}
+
+.openapi-preview-source pre {
+  font-family: var(--font-monospace);
+  color: var(--text-normal);
+  tab-size: 2;
+}

@@ -1,0 +1,9 @@
+{
+  "id": "openapi-preview",
+  "name": "OpenAPI Preview",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Preview OpenAPI YAML and JSON documentation with Redoc, including references to files in your vault.",
+  "author": "Eduardo Guzman",
+  "isDesktopOnly": false
+}

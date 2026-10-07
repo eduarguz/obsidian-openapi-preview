@@ -1,0 +1,15 @@
+get:
+  tags:
+    - Users
+  summary: List users
+  operationId: listUsers
+  description: Returns all users. Edit this text to test automatic preview refresh.
+  responses:
+    '200':
+      description: A list of users.
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: ../schemas/user.yaml

@@ -1,0 +1,18 @@
+type: object
+required:
+  - id
+  - name
+properties:
+  id:
+    type: integer
+    description: Unique identifier for the user.
+    examples:
+      - 42
+  name:
+    type: string
+    description: Display name.
+    examples:
+      - Ada
+  manager:
+    description: An optional recursive reference to another user.
+    $ref: ./user.yaml
